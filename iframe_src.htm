@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+<body>
+    <div id="div__myForm">
+        <form action="#" method="POST" autocomplete="off">
+            <div class="form__block">
+                Can you please provide your personal details
+            </div>
+
+            <div class="form__block">
+                <label for="name">Name</label><br />
+                <input id="name__block" type="text" name="name" />
+            </div>
+    
+            <div class="form__block">
+                <label for="dob">Date of Birth</label><br />
+                <input id="dob__block" type="date" name="dob" />
+            </div>
+    
+            <div class="form__block">
+                <label for="contact">Contact Number</label><br />
+                <input id="contact__block" type="text" name="contact" />
+            </div>
+    
+            <div class="form__block">
+                <label for="country">Country</label><br />
+                <select id="country__select" name="country">
+                    <option value=""></option>
+                </select>
+            </div>
+    
+            <div class="form__block">
+                <label for="states">States</label><br />
+                <select disabled id="states__select" name="state">
+                    <option value=""></option>
+                </select>
+            </div>
+    
+            <div class="form__block">
+                <label for="email">Your email</label><br />
+                <input id="email__block" type="email" name="email" />
+            </div>
+    
+            <div class="form__block">
+                <button type="submit">
+                    Submit
+                </button>
+            </div>
+        </form>
+   <div id="form__result" class="form__result">
+        </div> 
+      
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
